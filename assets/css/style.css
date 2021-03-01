@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Didact Gothic', sans-serif;
+}
+/*
+.entete{
+  background-image: url("../img/Banniere.jpg");
+  width: 100%;
+    height: 55%;
+}*/
+.menu{
+    background-color:#3EBAFA;
+    height: 10%;
+    color: white;
+}
+.nav-item:hover{
+    background-color:white;  
+}
+.pub{
+    background-image: url("../image/pub.jpg");
+    height: 20%;
+}
+.img{
+    
+    width: 100%;
+}
+.footer,.boutoncommencer,.btn{
+background-color: #3EBAFA;
+
+}
+
+.boutoncommencer:hover{
+    background-color: #3EBAFA;
+    color: white;
+}
+.nav-link,.footer,.politique{
+    color: white;
+}
+.navbar-toggler-icon{
+    background-color: black;
+}
+.titre{
+background-color: #3EBAFA;
+padding: 5px;
+}
+.btn{
+    border: 1px solid black;
+}
