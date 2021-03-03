@@ -77,7 +77,10 @@ padding: 5px;
 .proverbe{
     background-image: url("../image/degradee.jpg");
 }
-
+.valider{
+    width: 200px;
+    font-size: 20px;
+}
 @media (max-width: 575px) {
 
     /*ici tu vas mettre tout le code qui doit être adapté très petits écrans*/
