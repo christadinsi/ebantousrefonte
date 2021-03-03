@@ -18,16 +18,51 @@
     <title>Accueil</title>
   </head>
   <body>
+<!-- Inscription,connexion et langue plus baniere -->
+<div class="container-fluid bannière">
+  <div class="container">
+    <div class="row justify-content-md-center ">
+      <div class="col col-lg-2">
+      
+      </div>
+      <div class="col-md-auto mt-5 inscription connexion">
+        <form class="d-flex">
+          <ul class="nav justify-content-end ">
+            <li class="nav-item ">
+              <a class="nav-link " href="#">S'inscrire</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link connexion" href="#">Connexion</a>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <div class="col col-lg-2 mt-5 ">
+        <div class="col-sm">
+          <div class="dropdown">
+            <a class="btn dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="bi bi-flag"></i>Francais
+            </a>
+            <div class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item navinscription" href="#">Anglais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <img class="img img-fluid"  src="./assets/image/Banniere.jpg" alt="">
-    <nav class="navbar navbar-expand-lg   menu mt  ">
+ <!-- navbar  -->   
+ 
+    <nav class="navbar navbar-expand-lg    menu mt  ">
      
       <button
         class="navbar-toggler" type="button" data-toggle="collapse"data-target="#navbarScroll" aria-controls="navbarScroll"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon">Menu</span>
       </button>
       <div class="collapse navbar-collapse" id="navbarScroll" >
         <ul
@@ -62,26 +97,18 @@
             </ul>
           </li>
         </ul>
-        <form class="d-flex">
-          <ul class="nav justify-content-end ">
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">S'inscrire</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Connexion</a>
-            </li>
-          </ul>
-        </form>
-        <i class="bi bi-flag"></i>
+        <!-- Inscription  --> 
+        
       </div>
     </nav>
+
+    <!-- Pub  --> 
     <div class="container-fluid pub"></div>
-    
-    
+
+ <!-- Section--> 
+
     <div class="container mt-4">
-    
-        <div class="row justify-content-center">
+        <div class="row justify-content-center section">
           <div class="col-6">
             <div class="d-flex flex-column bd-highlight mb-3">
               <h2 class="titre">Comment dit-on "Bonjour" en</h2>
@@ -96,20 +123,17 @@
             <video width="420" height="240" controls>
               <source src="movie.mp4" type="video/mp4">
               <source src="movie.ogg" type="video/ogg">
-           
             </video>
           </div>
     </div> 
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-12 text-center mt-5 mb-2 fw-bold">Apprendre une langue africaine en s’amusant c’est possible sur notre plateforme !</div>
+        <div class="col-md-12 text-center mt-5 mb-2 font-weight-bold"> <h4>Apprendre une langue africaine en s’amusant c’est possible sur notre plateforme !</h4></div>
       </div>
-
       <div class="container mt-2 mb-5">
-      
         <div class="row ">
-          
+ 
           <div class="m-auto"><div class="input-group">
             <select class="form-select px-2" id="inputGroupSelect04"  aria-label="Example select with button addon">
               <option selected>Choose...</option>
@@ -117,14 +141,14 @@
               <option value="2">Two</option>
               <option value="3">Three</option>
             </select>
-            <button class="btn  mx-4 boutoncommencer" type="button">Commencer</button>
+            <button class="  mx-4 boutoncommencer " type="button">Commencer</button>
           </div></div>
          
         </div>
       </div>
     
     </div>
-
+ <!-- Pied de page--> 
     <div class="container-fluid footer mt-4 ms-3">
       <div class="row align-items-center">
         <div class="col mt-5 mb-5">
@@ -143,9 +167,11 @@
               <div class=" "><i class="bi bi-twitter"></i>@ebantous </div>
         </div>
         <div class="col mt-5 mb-5">
-          <div><img src="./assets/image/Banniere.jpg" width="200" height="80" alt=""> </div>
+          <div><img src="./assets/image/logominiscule.jpg" width="200" height="80" alt=""> </div>
+          <a class="politique" href="">Condition générale d'utilisation</a><br>
           <a class="politique" href="">Politique de confidencialité</a>
-          <h5>Copyright e-bantous 2021</h5>
+
+          <h5>Copyright@e-bantous2021</h5>
         </div>
         </div>
         

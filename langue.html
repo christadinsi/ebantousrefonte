@@ -16,9 +16,43 @@
     <title>Langue</title>
   </head>
   <body>
+    <!-- Inscription,connexion et langue plus baniere -->
+<div class="container-fluid bannière">
+  <div class="container">
+    <div class="row justify-content-md-center ">
+      <div class="col col-lg-2">
+      
+      </div>
+      <div class="col-md-auto mt-5 connexion">
+        <form class="d-flex">
+          <ul class="nav justify-content-end ">
+            <li class="nav-item ">
+              <a class="nav-link connexion" href="#">S'inscrire</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link connexion " href="#">Connexion</a>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <div class="col col-lg-2 mt-5 ">
+        <div class="col-sm">
+          <div class="dropdown">
+            <a class="btn dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="bi bi-flag"></i>Francais
+            </a>
+            <div class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item navinscription" href="#">Anglais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <img class="img img-fluid"  src="./assets/image/Banniere.jpg" alt="">
-    <nav class="navbar navbar-expand-lg navbar-light  menu mt">
+ <!-- navbar  -->   
+    <nav class="navbar navbar-expand-lg   menu mt  ">
      
       <button
         class="navbar-toggler" type="button" data-toggle="collapse"data-target="#navbarScroll" aria-controls="navbarScroll"
@@ -27,16 +61,16 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse " id="navbarScroll">
+      <div class="collapse navbar-collapse" id="navbarScroll" >
         <ul
-          class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll menu text-center "
+          class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll menu text-center  "
           style="max-height: 100px"
         >
-          <li class="nav-item active ">
-            <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+          <li class="nav-item active">
+            <a class="nav-link navmenu" href="#">Accueil<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Langue</a>
+            <a class="nav-link " href="#">Langue</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Traduction</a>
@@ -60,20 +94,11 @@
             </ul>
           </li>
         </ul>
-        <form class="d-flex">
-          <ul class="nav justify-content-end inscription">
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">S'inscrire</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Connexion</a>
-            </li>
-          </ul>
-        </form>
+        <!-- Inscription  --> 
+        
       </div>
+      utilisateur<i class="fas fa-user"></i>
     </nav>
-    <div class="container-fluid pub mb-5 "></div>
 
 <div class="container-fluid ">
   
@@ -99,7 +124,7 @@
       <div class="container mt-5 mb-5 ">
       
         <div class="row row-cols-2">
-          <div class="col mb-5"> <div class="col"><div class="input-group">
+          <div class="col mb-5"> <div class="col "><div class="input-group ">
             <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
               <option selected>Choisir un pays</option>
               <option value="1">One</option>
@@ -139,28 +164,27 @@
           <button type="button" class="btn btn-primary btn-lg rounded-right"><i class="bi bi-arrow-left-square"></i></button>
            <button type="button" class="btn btn-primary btn-lg rounded"><i class="bi bi-play"></i></button>
            <button type="button" class="btn btn-primary btn-lg rounded-right"><i class="bi bi-arrow-right-square"></i></button>
+           <button type="button" class="btn btn-primary btn-lg rounded-right"><i class="bi bi-chat"></i></button>
+           <button type="button" class="btn btn-primary btn-lg rounded-right"><i class="bi bi-whatsapp"></i></button>
           </div>
         </div>
       </div>
       </div>
-     
-
     </div>
   </div>
 </div>
     <div class="container mt-5 mb-5">
       <div class="row mt-5 ">
-        <div class="col">
-          <h2>Proverbe du moment</h2>
-         
+        <div class="col text-center proverbe">
           <div class="col  ">
-            La force vient du ventre: en  langue Kota
+            <h2>Proverbe du moment</h2>
+            <p>La force vient du ventre</p>
+            <p>en  langue Kota</p>
           </div>
           <div class="row mt-5">
-           
             <div class="col">
-              <div class="col"> 
-                <audio  class="d-inline" controls="controls" style="width: 80%; height: 25px;" >
+              <div class="col text-center"> 
+                <audio  class="d-inline" controls="controls" style="width: 50%; height: 25px;" >
                         <source src="multimedia/traduction/traduction_237_70.mp3" type='audio/mpeg'>
                         Your browser does not support the audio element.
                 </audio>
@@ -169,61 +193,33 @@
          
         </div>
         </div>
-        <div class="col">
-          <h2>Comment dit-on "Je vais bien" en</h2>
-          <div class="col text-center">
-            <i class="bi bi-music-note-beamed "></i>Nkomi
+        <div class="col text-center mx-auto">
+          <h2 class="titre">Comment dit-on "Je vais bien" en</h2>
+          <div class="col text-center mt-5">
+            <i class="bi bi-music-note-beamed   "></i>Nkomi
           </div>
           <div class="row mt-5">
             <div class="col">
               <div class="col"> 
-                <audio  class="d-inline" controls="controls" style="width: 80%; height: 25px;" >
+                <audio  class="d-inline" controls="controls" style="width: 50%; height: 25px;" >
                         <source src="multimedia/traduction/traduction_237_70.mp3" type='audio/mpeg'>
                         Your browser does not support the audio element.
                 </audio>
             </div>
-            </div>
-         
+            </div>         
         </div>
         </div>
-      </div>
-     
-     
+      </div>    
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="container-fluid footer mt-4 ms-3">
+ <!-- Pub--> 
+    <div class="container-fluid pub "></div>
+    
+    <!-- Pied de page--> 
+    <div class="container-fluid footer ms-3">
       <div class="row align-items-center">
-        <div class="col">
+        <div class="col mt-5 mb-5">
           
-            <div class="d-flex flex-column bd-highlight mb-5 mt-5 ">
+            <div class="d-flex flex-column bd-highlight mb-3 mt-3 ">
               <h5>Besoin d'aide?</h5>
               <div class=""><i class="bi bi-telephone"></i> +241 7707070</div>
               <div class=""><i class="bi bi-envelope"></i> ebantous@gmail.com</div>
@@ -231,14 +227,17 @@
             
           </div>
         </div>
-        <div class="col">
+        <div class="col mt-5 mb-5">
           <h5>Suivez nous!</h5>
           <div class=""><i class="bi bi-facebook"></i> ebantous</div>
               <div class=" "><i class="bi bi-twitter"></i>@ebantous </div>
         </div>
-        <div class="col">
-          <div><img src="/assets/image/petit.jpg" width="200" height="80" alt=""> </div>
-          <h5>copiright e-bantous 2021</h5>
+        <div class="col mt-5 mb-5">
+          <div><img src="./assets/image/logominiscule.jpg" width="200" height="80" alt=""> </div>
+          <a class="politique" href="">Condition générale d'utilisation</a><br>
+          <a class="politique" href="">Politique de confidencialité</a>
+
+          <h5>Copyright@e-bantous2021</h5>
         </div>
         </div>
         

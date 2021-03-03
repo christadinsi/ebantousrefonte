@@ -3,19 +3,35 @@ body{
     height: 100vh;
     font-family: 'Didact Gothic', sans-serif;
 }
-/*
-.entete{
-  background-image: url("../img/Banniere.jpg");
-  width: 100%;
-    height: 55%;
-}*/
+
+.bannière{
+  background-image: url("../image/Banniere.jpg");
+  background-position: center;
+  height: 55%;
+}
+.dropdown-menu{
+    list-style-type: none;
+}
+
+.connexion{
+    background-color:#3EBAFA;
+    color: black;
+}
+.connexion:hover{
+    background-color:#3EBAFA;
+    
+}
+.btnlangue{
+height: 3px;
+}
 .menu{
     background-color:#3EBAFA;
     height: 10%;
     color: white;
 }
 .nav-item:hover{
-    background-color:white;  
+    background-color:white;
+    color: black;  
 }
 .pub{
     background-image: url("../image/pub.jpg");
@@ -27,6 +43,8 @@ body{
 }
 .footer,.boutoncommencer,.btn{
 background-color: #3EBAFA;
+border: none;
+padding: 10px;
 
 }
 
@@ -47,3 +65,68 @@ padding: 5px;
 .btn{
     border: 1px solid black;
 }
+.select{
+    background-color: #3EBAFA; 
+}
+.lienjeu{
+    background-color: #3EBAFA; 
+    padding-left: 10px;
+    padding-right: 10px;
+  
+}
+.proverbe{
+    background-image: url("../image/degradee.jpg");
+}
+
+@media (max-width: 575px) {
+
+    /*ici tu vas mettre tout le code qui doit être adapté très petits écrans*/
+    .bannière {
+        background-image: url(../image/petit.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-origin: content-box;
+        height: 39%;
+      
+       
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       width: 212%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .inscription{
+     
+    width: 49%;
+    padding-right: 10px;
+    padding-left: 15px;
+    }
+   
+    
+    
+}
+    
+    @media (min-width: 576px) and (max-width: 767px) {
+    
+    //ici tu vas mettre tout le code qui doit être adapté aux petits écrans
+    }
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+    
+    //ici tu vas mettre tout le code qui doit être adapté aux écrans de la taille moyenne du style tablette
+    
+    }
+    
+    @media (min-width: 992px) and (max-width: 1199px) {
+    
+    //ici tu vas mettre tout le code qui doit être adapté aux écrans de la taille large
+    }
+    
+    @media (min-width: 1200px)  {
+    
+    //enfin ici pour les écrans de taille très large
+    }
