@@ -19,7 +19,18 @@ body{
 }
 .connexion:hover{
     background-color:#3EBAFA;
+
     
+}
+.topinscription{
+    position: relative;
+    top:10px;
+    left: 25px;
+    padding: 20px;
+}
+.toplangue{
+    position: relative;
+    left: 30px;
 }
 .btnlangue{
 height: 3px;
@@ -54,6 +65,7 @@ padding: 10px;
 }
 .nav-link,.footer,.politique{
     color: white;
+    width: 91px;
 }
 .navbar-toggler-icon{
     background-color: black;
@@ -66,8 +78,21 @@ padding: 5px;
     border: 1px solid black;
 }
 .select{
-    background-color: #3EBAFA; 
+    background-color: #3EBAFA;
+    width: 200px;
+    padding: 10px; 
 }
+.cercle{
+        width: 56px;
+        height: 56px;
+        border-radius: 30px;
+        border: 2px solid black;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+}
+
 .lienjeu{
     background-color: #3EBAFA; 
     padding-left: 10px;
@@ -81,46 +106,148 @@ padding: 5px;
     width: 200px;
     font-size: 20px;
 }
+.egale{
+    width: 60px;
+    height: 20px;
+    margin-left:-30px;
+    border: 1px solid black;
+}
+.egaledeux{
+    width: 60px;
+    height: 20px;
+    margin-left:-30px;
+    border: 1px solid black; 
+}
 @media (max-width: 575px) {
 
-    /*ici tu vas mettre tout le code qui doit être adapté très petits écrans*/
+    /*ici tu vas mettre tout le code qui doit être adapté très petits écrans
+    
+    .menu {
+        height: 10%;
+        color: white;
+        margin-top: -31px;
+    }
+    h4 {
+        font-size: 1.5rem;
+    }
+    
+    
+    
+    
+    .nav-link, .footer, .politique {
+        color: white;
+        width: 97px;
+    } */
     .bannière {
         background-image: url(../image/petit.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
         background-origin: content-box;
-        height: 39%;
+        height: 46%;
       
-       
     }
     .section{
         display: flex;
         flex-direction: column;
        justify-content: center;
-       width: 212%;
+       width: 100%;
         margin-top: 20px;
         text-align: center;
+        padding: 55px;
     }
-    .inscription{
-     
-    width: 49%;
-    padding-right: 10px;
-    padding-left: 15px;
+    .titre {
+        background-color: #3EBAFA;
+        padding: 5px;
+        width: max-content;
     }
-   
-    
-    
+    .commentdire{
+        width: 100%;
+        margin-left: 125px;
+    }
+    .langue{
+        margin-top: 3rem!important;
+        top: 4px;
+        left: 16px;
+        width: 212px;
+    }
 }
     
     @media (min-width: 576px) and (max-width: 767px) {
     
-    //ici tu vas mettre tout le code qui doit être adapté aux petits écrans
+    /*ici tu vas mettre tout le code qui doit être adapté aux petits écrans*/
+    .bannière {
+        background-image: url(../image/mogen.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 48%;
+        
     }
+    
+    
+    .section{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       width: 200%;
+       text-align: center;
+   }
+   .inscription{
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 177px;
+}
+.langue{
+    top: -133px;
+    position: fixed;
+}
+.nav-link, .footer, .politique {
+    color: white;
+    width: 97px;
+}
+.inscription{
+    width: 97%;
+   
+}
+
+}
+
+
     
     @media (min-width: 768px) and (max-width: 991px) {
     
-    //ici tu vas mettre tout le code qui doit être adapté aux écrans de la taille moyenne du style tablette
+    /*ici tu vas mettre tout le code qui doit être adapté aux écrans de la taille moyenne du style tablette*/
+    .bannière {
+        background-image: url(../image/mogen.jpg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 48%;
+        
+    }
+    
+    
+    .section{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       width: 100%;
+       text-align: center;
+   }
+   .inscription{
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 177px;
+}
+.langue{
+    top: -133px;
+    position: fixed;
+}
+.nav-link, .footer, .politique {
+    color: white;
+    width: 97px;
+}
     
     }
     
