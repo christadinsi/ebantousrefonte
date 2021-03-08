@@ -120,30 +120,14 @@ padding: 5px;
 }
 @media (max-width: 575px) {
 
-    /*ici tu vas mettre tout le code qui doit être adapté très petits écrans
-    
-    .menu {
-        height: 10%;
-        color: white;
-        margin-top: -31px;
-    }
-    h4 {
-        font-size: 1.5rem;
-    }
-    
-    
-    
-    
-    .nav-link, .footer, .politique {
-        color: white;
-        width: 97px;
-    } */
+    /*ici tu vas mettre tout le code qui doit être adapté très petits écrans*/
     .bannière {
         background-image: url(../image/petit.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
         background-origin: content-box;
+        object-fit: cover;
         height: 46%;
       
     }
@@ -171,45 +155,45 @@ padding: 5px;
         left: 16px;
         width: 212px;
     }
+
+    /*resposnsive de  la page langue*/
+    .lang{
+      display: flex;
+      flex-direction: column;
+      
+    }
 }
     
     @media (min-width: 576px) and (max-width: 767px) {
     
     /*ici tu vas mettre tout le code qui doit être adapté aux petits écrans*/
-    .bannière {
+    .bannière{
         background-image: url(../image/mogen.jpg);
         background-position: center;
+        height: 46%;
         background-size: contain;
         background-repeat: no-repeat;
-        height: 48%;
-        
     }
-    
-    
     .section{
         display: flex;
         flex-direction: column;
        justify-content: center;
-       width: 200%;
-       text-align: center;
-   }
-   .inscription{
-    width: 100%;
-    padding-right: 100px;
-    padding-left: 177px;
-}
-.langue{
-    top: -133px;
-    position: fixed;
-}
-.nav-link, .footer, .politique {
-    color: white;
-    width: 97px;
-}
-.inscription{
-    width: 97%;
-   
-}
+       width: 100%;
+       margin-left: 34px;
+        text-align: center;
+    }
+    .titre {
+        background-color: #3EBAFA;
+        padding: 5px;
+        width: 500px;
+    }
+    video{
+        width: auto;
+        margin-left: 15px;
+    }
+    .commentdire {
+        margin-right: -273px;
+    }
 
 }
 
@@ -226,34 +210,35 @@ padding: 5px;
         height: 48%;
         
     }
-    
-    
     .section{
         display: flex;
         flex-direction: column;
        justify-content: center;
        width: 100%;
-       text-align: center;
-   }
-   .inscription{
-    width: 100%;
-    padding-right: 100px;
-    padding-left: 177px;
-}
-.langue{
-    top: -133px;
-    position: fixed;
-}
-.nav-link, .footer, .politique {
-    color: white;
-    width: 97px;
-}
+       margin-left: 34px;
+       padding-left: 50px;
+        text-align: center;
+    }
+    .titre {
+        background-color: #3EBAFA;
+        padding: 5px;
+        width: 500px;
+    }
+    video{
+        width: auto;
+        margin-left: 15px;
+    }
+    .commentdire {
+        margin-right: -211px;
+    }
+    
     
     }
     
     @media (min-width: 992px) and (max-width: 1199px) {
     
-    //ici tu vas mettre tout le code qui doit être adapté aux écrans de la taille large
+    /*ici tu vas mettre tout le code qui doit être adapté aux écrans de la taille large*/
+    
     }
     
     @media (min-width: 1200px)  {
